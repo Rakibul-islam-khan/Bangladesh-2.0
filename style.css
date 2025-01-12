@@ -32,21 +32,24 @@
     color: rgba(14, 14, 14, 0.5);
 }
 
-.banner-text-h{
+#banner-text-h{
     font-size: 56px;
-    font-weight: 700;
-    color: rgba(14, 14, 14, 1);
+    font-weight: bold;
+
 }
+
+
 .btn-primary{
     /* width: 274px;
     height: 56px; */
-    font-size: 20px;
+    
+    font-size: 18px;
     font-weight: 600;
     background-color: rgba(0, 106, 80, 1);
     border-radius: 8px;
     color: white;
     border-style: none;
-    padding: 10px 15px;
+    padding: 15px 20px;
 }
 .btn-primary:hover{
     background-color: brown;
@@ -142,5 +145,60 @@ background-color: rgba(84, 144, 245, 1);}
     margin-left: 17px;
 }
 .recent-btn{
+    margin-top: 20px;
+}
+
+
+.donate{
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+
+.donate-h{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.donate-p{
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.amounts{
+    display: flex;
+}
+.Taka{
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 35px;
+    margin: 15px;
+    
+}
+.input-box{
+    /* width: 900px; */
+    height: 60px;
+    padding: 0px 350px;
+    font-size: 20px;
+    font-weight: 400;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    place-items: center;
+    
+}
+
+.tk{
+    background-color: rgba(198, 228, 214, 1);
+}
+.done-btn{
     margin-top: 20px;
 }
