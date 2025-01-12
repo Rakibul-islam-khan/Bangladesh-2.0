@@ -202,3 +202,62 @@ background-color: rgba(84, 144, 245, 1);}
 .done-btn{
     margin-top: 20px;
 }
+
+
+
+.newslatter{
+    margin-top: 60px;
+    border-radius: 16px;
+    background-color: rgba(198, 228, 214, 1);
+    display: grid;
+    place-items: center;
+}
+
+.newslatter-h{
+    font-size: 40px;
+    font-weight: bold;
+}
+.newslatter-p{
+    font-size: 16px;
+    font-weight: 400;
+    color:rgba(14, 14, 14, 0.7)
+}
+
+.input-box-1{
+    /* border-radius: 16px; */
+    display: flex;
+}
+
+.input-box-2{
+    padding: 16px 250px 16px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+    border-style: none;
+    margin-right: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+.btn-s{
+    padding: 16px;
+    background-color: rgba(0, 106, 80, 1);
+    margin-left: 0;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.btn-s:hover{
+    background-color: brown;
+}
+
+.not-spam{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
